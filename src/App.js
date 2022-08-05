@@ -16,11 +16,11 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>Simple React Counter</h1>
+      
       <h3>Count: {count}</h3>
       <div className='buttons'>
-        <Button action="Decrease" onClick={handleIncreaseClick}></Button>
-        <Button action="Increase" onClick={handleDecreaseClick}></Button>
+        <Button action="Decrease" onClick={handleDecreaseClick}></Button>
+        <Button action="Increase" onClick={handleIncreaseClick}></Button>
       </div>
     </div>
   );
